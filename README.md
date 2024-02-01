@@ -35,7 +35,7 @@ bash download_dataset.sh
 There are two ways to create labels for the dataset:
     - Using ImageNet models:
         ~~~
-        python -m src.make_dataset dataset_model=imagenet output_file=data/processed/dataset_openai.jsonl
+        python -m src.make_dataset dataset_model=imagenet output_file=data/processed/dataset_imagenet.jsonl
         ~~~
     - Using OpenAI models:
         Before running the command below, you need to create `.env` file in the root directory of the project and add OPENAI_API_KEY variable to it. Since each request to the API costs money, you can specify the number of requests you want to make using subset variable
