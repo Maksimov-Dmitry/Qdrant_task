@@ -57,7 +57,7 @@ Now, let's evaluate the end-to-end pipeline using OpenAI's dataset and the defin
 - **MRR: 0.64**
 - **HitRate@5: 0.74**
 
-It means that **on average the relevant image within the top 2-3 results**. Also, we can see that **in 74% of cases the relevant image is in the top 5 results**.
+It means that **on average the relevant image within the top 2 results**. Also, we can see that **in 74% of cases the relevant image is in the top 5 results**.
 Let's have a look at some good examples, based on the RR metric:
 ![image2text](plots/good_1.png)
 ![image2text](plots/good_2.png)
