@@ -21,7 +21,7 @@ Before creating the Streamlit app, I had to create a pipeline to evaluate the mo
 To run the above pipeline, execute the following commands in the root directory of the project:
 
 1. Prepare environment
-I have used python 3.8.5 for this project.
+I have used python 3.10.11 for this project.
 ~~~
 python -m venv .venv
 source .venv/bin/activate
