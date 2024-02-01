@@ -68,7 +68,7 @@ And some bad examples:
 ![image2text](plots/bad_2.png)
 ![image2text](plots/bad_3.png)
 
-We observe some issues with the labels. While the images seem correct based on the input from my perspective, the ground truth image was not successfully retrieved.
+While the images seem correct based on the input from my perspective, the ground truth image was not successfully retrieved. That's why we observe some issues with the labels. 
 
 ## Next Steps
 - **Create a more reliable dataset**
