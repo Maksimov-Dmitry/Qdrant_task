@@ -1,0 +1,7 @@
+defaults:
+  - dataset_model: imagenet
+  - _self_
+
+input_directory: data/raw
+output_file: data/processed/dataset.jsonl
+subset: Null

@@ -1,0 +1,7 @@
+image_directory: data/raw
+db: data/db
+collection_name: adv
+model: ViT-B-16-SigLIP
+weights: webli
+device: mps
+batch_size: 32

@@ -1,0 +1,4 @@
+model: tf_efficientnet_b4.ns_jft_in1k
+threshold: 0.85
+batch_size: 64
+device: mps

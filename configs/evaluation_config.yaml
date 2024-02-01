@@ -1,0 +1,8 @@
+dataset: data/processed/dataset_openai.jsonl
+image_directory: data/raw
+output_file: results/eval_openai.jsonl
+top_k: 5
+model: ViT-B-16-SigLIP
+weights: webli
+device: mps
+batch_size: 32
